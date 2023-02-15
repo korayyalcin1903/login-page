@@ -1,0 +1,124 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #C0EEF2;
+}
+
+.card{
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -10%);
+    color:#fff;
+    border: 2px solid rgba(0, 0, 0, 0.623);
+    border-radius: 10px;
+    padding: 2rem 5rem;
+    background-color: #181823;
+}
+
+.header{
+    text-align: center;
+}
+
+img{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    margin-top: 1rem;
+}
+
+img:hover{
+    width: 120px;
+    height: 120px;
+    transition: all .5s ease-in-out;
+}
+
+.body{
+    width: 100%;
+    color:#181823;
+    margin-top: 3rem;
+}
+
+label{
+    color: #537FE7;
+}
+
+label, input{
+    display: block;
+    margin: .5rem 0;
+    font-size: 1.2rem;
+}
+
+
+input{
+    width: 85%;
+    font-size: 1.4rem;
+    border: none;
+    border-radius: 10px;
+    display: flex;
+    display: inline-block;
+    background-color: none;
+    background-color: #E9F8F9;
+    padding: .5rem;
+}
+
+.form{
+    background-color: #E9F8F9;
+    border-radius: 10px;
+    margin-top: 1rem;
+    padding: 0 .5rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.login{
+    background-color: #537FE7;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    color: #fff;
+    padding: .7rem 1.5rem;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 3rem;
+}
+
+.login:hover{
+    background-color: #004cff;
+    cursor: pointer;
+    border: none;
+    box-shadow: 3px 3px #537FE7;
+}
+
+.link{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 3rem ;
+}
+
+a{
+    color:#537FE7;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #004cff;
+}
+
+@media screen and (max-width: 600px) {
+    .card{
+        width: 70vw;
+        padding: 2rem;
+    }
+  }
+
+@media screen and (min-width: 600px) and (max-width: 850px) {
+    .card{
+        width: 55vw;
+        padding: 2rem;
+    }
+  }
